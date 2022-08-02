@@ -1,30 +1,15 @@
 # 康斯坦丁数字拼图
 
 > 见视频
+https://www.bilibili.com/video/BV1Fh411x7Po?spm_id_from=333.999.0.0&vd_source=6c6141003dc5a8313f23027acc7f28cb
+搭建了一个前端项目，可以在网页端玩这个puzzle。初始页面如下，可以使用鼠标拖动各个数字。
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
+在输入的文本框中输入对应的数字，可以将其旋转或者翻折。
 
-# serve with hot reload at localhost:8080
-npm run dev
+目标就是把这十个数不重叠地放入网格中。
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+这是成功的一种做法。
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+此外，将该项目部署到了我的服务器当中，访问 http://8.142.34.197/#/3 即可尝试。
